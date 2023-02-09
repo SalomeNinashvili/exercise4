@@ -1,0 +1,334 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	
+}
+body {
+	line-height: 1;
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face {
+	font-family: poppins;
+	src: url(../static/fonts/poppins/Poppins-ExtraLightItalic.ttf);
+}
+
+.first, .second, .third, .forth{
+	display: inline-block;
+}
+
+
+
+.icon{
+    display: inline-block;
+	margin-right: -10px;
+	margin-left: 300px;
+
+}
+.logo{
+	display: inline-block;
+	margin-left: 126px;
+}
+
+.head-components{
+    margin-left:  200px;
+    margin-top: 30px;
+    width: 400px;
+	font-family: 'poppins';
+	color: #000;
+	font-weight: bold;
+}
+ 
+.second, .third, .forth{
+    margin-left: 30px;
+
+}
+
+.head{
+   display: inline-block; 
+} 
+
+h2{
+    margin-top: 30px;
+    margin-right:126px ;
+}
+
+.head, .head-components{
+	display:inline-block;
+}
+
+header, nav {
+	height: 70px;
+	width: 100%;
+	border-bottom: 1px solid black;
+} 
+
+.title{
+	margin-top: 70px;
+	margin-left: 600px;
+}
+
+.product, .product-info{
+	display: inline-block;
+	margin-left: 50px;
+	margin-top: 20px;
+} 
+.list{
+	display: inline;
+	font-style: poppins;
+}
+
+.product-info{
+	border: 1px solid black;
+	width: 333px;
+} 
+ 
+.product-info img{
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.product-info h3, 
+.product-info p{
+    margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: poppins;
+	font-size: 14px;
+} 
+
+.product-info h3{
+	font-weight: bold;
+}
+
+.button{
+	margin-top: 20px;
+	margin-left: 300px;
+	cursor: pointer ;
+	padding-top: 10px;
+} 
+
+.button :hover{
+	color: hotpink;
+	background-color: aliceblue;
+} 
+
+.bulletpoints{
+	margin-left: 60px;
+	margin-top: 40px;
+	font-family: 'Open Sans'; 
+	font-size: 13px;
+	font-weight: lighter; 
+}
+
+button{
+	padding: 6px 10px 6px 10px;
+	background-color: white;
+	border-radius: 4px;
+	border: 1px solid black;
+}
+
+.contact{
+	margin-top: 50px;
+	margin-left: 600px;
+	font-weight: 700px;
+	font-size: 40px;
+    color: #7D0000;
+} 
+
+.contact-info, .contact-info2{
+	display: inline-block;
+	margin-top: 40px;
+    font-size: 27px;
+	font-weight: 600px;
+}
+.contact-info{
+	margin-left: 320px;
+}
+
+.contact-info2{
+	margin-left: 300px;
+} 
+
+h4{
+	 margin-top: 30px ;
+} 
+
+iframe{
+	margin-top: 80px;
+	margin-left: 400px;
+} 
+
+.about{
+	font-weight: 600px;
+	font-size: 40px;
+	margin-left: 550px;
+	margin-top: 70px;
+	color: #7D0000;
+} 
+
+.description{
+	font-size: 25px;
+	font-weight: 400px;
+	width: 500px;
+	margin-top: 90px;
+	display: inline-block;
+	margin-left: 200px;
+}
+
+.address{
+	margin-left: 190px;
+	font-weight: 400px;
+	font-size: 25px;
+	margin-top: 50px;
+	display: inline-block;
+}
+
+.photo{
+	width:500px;
+	height: 333px ;
+	margin-left: 30px;
+    margin-top: 30px;
+}
+
+.product-img{
+	display: inline-block;
+	vertical-align: -20px;
+} 
+
+
+.menu-elements li{
+	display: inline-block;
+	margin-top: 50px;
+	margin-right: 70px;
+} 
+
+.title2{
+	margin-left: 90px;
+	margin-top: 30px;
+	font-weight: 400px;
+	size: 24px;
+}  
+
+.menu-elements{
+	margin-left: 430px;
+}
+
+.blog-card{
+	display: inline-block;
+	margin-top: 40px;
+	margin-left: 90px;
+} 
+
+.blog{
+	display: inline-block;
+} 
+
+.blog-content{
+	display: inline-block;
+	width: 1000px; 
+	background-color: #E5EBE5;
+   vertical-align: top;
+} 
+
+.blog-content h4{
+	margin-bottom: 80px;
+	margin-left: 40px;
+}
+
+.blog-content p {
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
+
+.blog-card img{
+	width: 208px;
+	height: 208px;
+} 
+
+.button2{
+	margin-left: 1050px;
+	margin-top: 30px;
+	cursor: pointer;
+} 
+
+.personal-photo{
+	display: inline-block;
+    margin-top: 80px;
+	margin-left: 250px;
+} 
+
+.personal-card{
+	display: inline-block; 
+	margin-left: 90px;
+	vertical-align: 50px;
+    
+}
+
+.about2{
+	font-weight: 500px;
+	font-size: 24px;
+	margin-left: 300px;
+	margin-top: 60px;
+	width: fit-content;
+	border-bottom: 1px solid #7D0000;
+    height: 50px;
+}
+
+.personal-info, .personal-info2{
+	display: inline-block;
+	margin-left: 100px;
+	margin-top: 60px;
+}  
+
+.personal-info{
+	margin-left: 300px;
+}
+
+.personal-info h3, .personal-info2 h3{
+	margin-top: 10px;
+}
+
+.button3{
+	display: inline;
+	vertical-align: -70px;
+	margin-left: 300px;
+	cursor: pointer;
+	background-color: #87AC87;
+	color: white; 
+	border-radius: 4px;
+	border:none;
+	padding: 10px 15px 10px 15px
+}
